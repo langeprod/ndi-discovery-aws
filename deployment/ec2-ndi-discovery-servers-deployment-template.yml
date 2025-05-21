@@ -18,8 +18,9 @@ Parameters:
     AllowedValues:
       - t3.micro
       - t3.medium
+      - tg4.micro
       - other
-    Default: t3.medium
+    Default: t4g.micro
     Description: Type of the EC2 instance to be deployed.
     Type: String
 
